@@ -4,7 +4,6 @@
 
 
 # Coming soon
-H
 _My #5 website project_
 
 This project is for frontend web development learning and practicing only. 
