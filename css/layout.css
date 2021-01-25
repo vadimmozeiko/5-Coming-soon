@@ -13,3 +13,27 @@
     width: 600px;
     margin: 0 calc(50% - 300px);
 }
+
+@media (max-width: 1100px) {
+    .container > .row {
+        width: 800px;
+        margin: 0 calc(50% - 400px);
+    }
+}
+
+@media (max-width: 900px) {
+    .container > .row {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+    }
+}
+
+@media (max-width: 680px) {
+    .container > .row,
+    .container > .short-row {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+}
+
