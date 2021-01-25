@@ -25,7 +25,7 @@
 
     <section class="container hero bg-blue">
         <div class="short-row">
-            <img src="./img/logo.png" alt="logo">
+            <img class="logo" src="./img/logo.png" alt="logo">
             <h1 class="hero-title">
                 Coming soon
             </h1>
@@ -33,13 +33,44 @@
                 An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!
             </p>
             <div class="clock">
-                Clock here
+                <div class="clock-box">
+                    <div class="number">
+                        00
+                    </div>
+                    <div class="number-subtitle">
+                        days
+                    </div>
+                </div>
+                <div class="clock-box">
+                    <div class="number">
+                        00
+                    </div>
+                    <div class="number-subtitle">
+                        hours
+                    </div>
+                </div>
+                <div class="clock-box">
+                    <div class="number">
+                        00
+                    </div>
+                    <div class="number-subtitle">
+                        minutes
+                    </div>
+                </div>
+                <div class="clock-box">
+                    <div class="number">
+                        00
+                    </div>
+                    <div class="number-subtitle">
+                        secounds
+                    </div>
+                </div>
             </div>
             <div class="subscribe">
                 <label for="subscribe">
-                    <input type="text" id="subscribe" placeholder="Type your email">
+                    <input type="email" name="subscribe" placeholder="Type your email" required>
                 </label>
-                <button class="button" type="submit" >Subscribe now</button>
+                <button class="button" type="submit" href="#" >Subscribe now</button>
             </div>
             <div class="mouse">
                 Mouse animation here
@@ -76,20 +107,20 @@
                 </p>
                 <form action="" class="form">
                     <label for="name">
-                        <input type="text" id="name" placeholder="Name">
+                        <input type="text" name="name" placeholder="Name">
                     </label>
                         <label for="email">
-                            <input type="text" id="email" placeholder="Email">
+                            <input type="text" name="email" placeholder="Email">
                         </label>
                     <label for="message">
-                        <textarea id="message" cols="40" rows="2"  placeholder=" Message"></textarea>
+                        <textarea name="message" cols="40" rows="2"  placeholder=" Message"></textarea>
                     </label>
                     <button class="button form-btn" type="submit" >Send message</button>
                 </form>
             </div>
         </div>
     </section>
-    <footer class="container footer">
+    <footer class="container footer bg-blue">
         <div class="short-row">
             <div class="socials">
                 Social here
