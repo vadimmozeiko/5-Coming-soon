@@ -1,0 +1,15 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    padding: 60px 0;
+}
+.container > .row {
+    display: inline-block;
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+}
+.container > .short-row {
+    display: inline-block;
+    width: 600px;
+    margin: 0 calc(50% - 300px);
+}

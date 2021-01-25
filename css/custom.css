@@ -1,0 +1,59 @@
+/* Basic styles */ 
+.bg-blue {
+    background-color: #03a9f4;;
+}
+
+
+/* Hero section */
+
+.hero {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.hero .logo {
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.hero-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.hero-text {
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.clock {
+    margin-bottom: 60px;
+}
+
+.subscribe input {
+    display: inline-block;
+    width: 85%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.subscribe input::placeholder {
+    color: #fff;  
+}
