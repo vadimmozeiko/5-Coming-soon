@@ -1,0 +1,23 @@
+.clock {
+    display: inline-block;
+    width: 100%;
+}
+
+.clock-box {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.clock-box .number {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.clock-box .number-subtitle {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+}
