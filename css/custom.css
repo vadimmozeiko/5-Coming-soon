@@ -8,10 +8,9 @@
 
 .hero {
     background-image: url(../img/banner.jpg);
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     text-align: center;
-
 }
 
 .hero .logo {
@@ -29,7 +28,7 @@
 .hero-text {
     line-height: 1.5;
     color: #999;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -40,7 +39,7 @@
 
 .subscribe input {
     display: inline-block;
-    width: 85%;
+    width: 90%;
     border: none;
     outline: none;
     background: none;
@@ -64,7 +63,7 @@
     display: inline-block;
     width: 50%;
     float: left;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 
@@ -72,7 +71,7 @@
     display: inline-block;
     width: 40%;
     float: right;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .main-title {
