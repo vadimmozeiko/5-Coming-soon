@@ -1,6 +1,6 @@
-![HTML]https://img.shields.io/badge/code-HTML-brightgreen
-![CSS]https://img.shields.io/badge/code-CSS-green
-![JS]https://img.shields.io/badge/code-JS-orange
+![HTML](https://img.shields.io/badge/code-HTML-brightgreen)
+![CSS](https://img.shields.io/badge/code-CSS-green)
+![JS](https://img.shields.io/badge/code-JS-orange)
 
 
 # Coming soon
