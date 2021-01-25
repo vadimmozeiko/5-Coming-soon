@@ -7,3 +7,8 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+.form-btn {
+    padding: 12px 20px;
+    float: right;
+}
