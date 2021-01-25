@@ -11,8 +11,6 @@
     background-position: center top;
     background-size: cover;
     text-align: center;
-    height: 100vh;
-    
 }
 
 .hero .logo {
@@ -25,7 +23,6 @@
     text-transform: uppercase;
     font-weight: 900;
     margin-bottom: 20px;
-
 }
 
 .hero-text {
@@ -51,7 +48,6 @@
     margin-bottom: 40px;
     color: #fff;
     font-size: 15px;
-
 }
 
 .subscribe input::placeholder {
@@ -80,12 +76,12 @@
 
 .main-title {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 
 .main-text {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
     color: #999;
     margin-bottom: 10px;
@@ -101,4 +97,92 @@
     .right-column {
         width: 100%;
     }
+}
+
+
+
+/* Footer section */
+
+.footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #fff8;
+}
+
+.footer a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer .fa {
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.footer .fa:hover {
+    background-color: #fff;
+    color: #03a9f4;
+}
+
+.footer-logo {
+    height: 60px;
+    margin: 20px 0;
+}
+
+.buttom-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+.buttom-text > p {
+    position: relative;
+}
+
+.buttom-text > p::before {
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #fff8;;
+    position: absolute;
+    top: 50%;
+    left: -11px;
+    transform: translateY(-50%);
+    
+}
+.buttom-text > p:first-of-type::before {
+    display: none;
+
+}
+
+.short-row > p {
+    display: inline-block;
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    .buttom-text {
+         flex-direction: column;
+    }
+    .buttom-text > p::before {
+        display: none;
+    }
+}
+
+.socials {
+    border-bottom: 1px solid #fff8;
+
 }
