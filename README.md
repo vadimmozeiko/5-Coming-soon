@@ -1,7 +1,10 @@
-![1](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimmozeiko&theme=blue-green)
+![HTML]https://img.shields.io/badge/code-HTML-brightgreen
+![CSS]https://img.shields.io/badge/code-CSS-green
+![JS]https://img.shields.io/badge/code-JS-orange
+
 
 # Coming soon
-
+H
 _My #5 website project_
 
 This project is for frontend web development learning and practicing only. 
