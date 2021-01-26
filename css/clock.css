@@ -21,3 +21,15 @@
     margin-top: 10px;
     font-size: 14px;
 }
+
+@media (max-width: 600px){
+    .clock {
+        display: inline-block;
+        width: 80%;
+    }
+    .clock-box {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+}
