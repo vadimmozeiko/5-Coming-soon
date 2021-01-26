@@ -1,14 +1,16 @@
 .button {
     outline: none;
     border: none;
+    border-radius: 2px;
     padding: 12px 38px;
     color: #fff;
     background-color: #e91e63;
     font-size: 16px;
     cursor: pointer;
+
 }
 
-.form-btn {
+.form > .button {
     padding: 12px 20px;
     float: right;
 }

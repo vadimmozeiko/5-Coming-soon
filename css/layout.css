@@ -26,6 +26,10 @@
         width: 600px;
         margin: 0 calc(50% - 300px);
     }
+    .container {
+        padding: 30px 20px;
+        
+    }
 }
 
 @media (max-width: 680px) {
@@ -34,6 +38,12 @@
         width: 100%;
         margin: 0;
         padding: 0 20px;
+    }
+    .container {
+        padding: 30px 20px;
+    }
+    .container > .short-row > .mouse {
+        display: none;
     }
 }
 
