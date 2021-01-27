@@ -30,6 +30,5 @@
     .clock-box {
         display: inline-block;
         width: 50%;
-        float: left;
-    }
+        margin-bottom: 10px;
 }
