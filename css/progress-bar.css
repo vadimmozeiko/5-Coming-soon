@@ -24,7 +24,7 @@
     display: inline-block;
     height: 100%;
     float: left;
-    background-color: #c0c0c0;
+    background-color: transparent;
     border-radius: 2px;
 
   
@@ -32,8 +32,8 @@
 
 .bar-overlay {
     display: inline-block;
-    height: 100%;
     width: 0;
+    height: 100%;
     float: left;
     background-color: var(--main-color);
     border-radius: 2px;
@@ -41,7 +41,19 @@
     animation-duration: 1.5s;
     animation-timing-function: ease-out ;
     animation-fill-mode: forwards;
+    position: relative;
+}
 
+.bar-overlay::after {
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color:#666;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @keyframes loading {
