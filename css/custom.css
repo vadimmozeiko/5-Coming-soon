@@ -115,7 +115,7 @@
 }
 
 .main-link:hover {
-    color:#8a0430;
+    color: var(--secoundary-hover);
 }
 
 @media (max-width: 900px) {
