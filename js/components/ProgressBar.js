@@ -4,22 +4,39 @@ class ProgressBar {
         this.data = data
 
         this.DOM = document.querySelector(this.selector)
+
+        this.initialise()
     }
+    
 
-
-    render() {
+    initialise() {
         if (typeof this.selector !== 'string' ||
-        this.selector === ''){
-           console.error('ERROR: Selector was not found.')
-           return false
+            this.selector === ''){
+            console.error('ERROR: Selector was not found.')
+            return false
         }
          if (!this.DOM) {
-             console.error ('ERROR: Selector was not found.')
-             return false
+            console.error ('ERROR: Selector was not found.')
+            return false
         }
+
+        if (!this.data || typeof (this.data) !== 'object'){
+            console.error ('ERROR: Data object was not found.')
+            return false
+        }
+        
+        this.render()
+    }
+
+    render() {
+      
             for (let i = 0; i < this.data.length; i++){
+                const data = this.data[i]
                  let HTML = `<div class="progress-bar">
-                        PROGRESS BAR </div>`
+                       <div class"name">${data.name}</div>
+                        <div class"value">${data.value}%</div>
+                        <div> BAR </div> 
+                        </div>`
              this.DOM.innerHTML += HTML
             }
             
