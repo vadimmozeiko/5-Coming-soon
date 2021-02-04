@@ -38,8 +38,8 @@ class ProgressBar {
                         <div class="value">${data.value}%</div>
                         </div>
                         <div class="bar">
-                        <div class="bar-line">
-                        <div class="bar-overlay" style="width: ${data.value}%;"></div> 
+                        <div class="bar-line" style="width: ${data.value}%;">
+                        <div class="bar-overlay"></div> 
                         </div> 
                         </div>`
              this.DOM.innerHTML += HTML
