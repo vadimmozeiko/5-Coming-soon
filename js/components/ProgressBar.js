@@ -33,9 +33,13 @@ class ProgressBar {
             for (let i = 0; i < this.data.length; i++){
                 const data = this.data[i]
                  let HTML = `<div class="progress-bar">
-                       <div class"name">${data.name}</div>
-                        <div class"value">${data.value}%</div>
-                        <div> BAR </div> 
+                        <div class="bar-block">
+                       <div class="name">${data.name}</div>
+                        <div class="value">${data.value}%</div>
+                        </div>
+                        <div class="bar">
+                        <div class="bar-line"></div> 
+                        <div class="bar-overlay"></div> 
                         </div>`
              this.DOM.innerHTML += HTML
             }

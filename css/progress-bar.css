@@ -1,0 +1,36 @@
+.progress-bar {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    color: #999;
+}
+
+.bar-block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bar-line {
+    display: inline-block;
+    width: 50%;
+    height: 5px;
+    margin: 20px 0;
+    background-color: #03a9f4;
+    border-radius: 2.5px;
+    float: left;
+  
+}
+
+.bar-overlay {
+    display: inline-block;
+    width: 50%;
+    height: 5px;
+    margin: 20px 0;
+    background-color: #c0c0c0;
+    border-radius: 2.5px;
+    float: left;
+
+
+}
+
