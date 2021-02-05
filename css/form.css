@@ -12,7 +12,7 @@
     width: 47%;
     border: none;
     outline: none;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid var(--text-color);
     padding: 10px 0;
     margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@
     width: 100%;
     border: none;
     outline: none;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid var(--text-color);
     padding: 10px 0;
     resize: none;
     margin-bottom: 40px;

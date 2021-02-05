@@ -2,7 +2,7 @@
     display: inline-block;
     width: 100%;
     font-size: 15px;
-    color: #999;
+    color: var(--text-color);
 }
 
 .bar-block {
