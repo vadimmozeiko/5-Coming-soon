@@ -37,11 +37,14 @@
     float: left;
     background-color: var(--main-color);
     border-radius: 2px;
+    position: relative;
+}
+
+.animate {
     animation-name: loading;
     animation-duration: 1.5s;
     animation-timing-function: ease-out ;
     animation-fill-mode: forwards;
-    position: relative;
 }
 
 .bar-overlay::after {
