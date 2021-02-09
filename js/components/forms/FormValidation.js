@@ -1,3 +1,5 @@
+import {Validation} from './Validation.js'
+
 class FormValidation {
     constructor() {
         this.forms = []
@@ -23,9 +25,22 @@ class FormValidation {
 
             submitButton.addEventListener('click', (event) => {
                 event.preventDefault()
-
+                
                 for (const input of allInputs){
-                    console.log(input.value);
+                    const rule = input.dataset.validation
+                    const text = input.value
+
+                    if (rule === 'name'){
+                        console.log(Validation.isValidName(text))
+                    }
+
+                    if (rule === 'email'){
+                        // use email validation
+                    }
+
+                    if (rule === 'text'){
+                        // use text validation
+                    }
                 }
             })
    

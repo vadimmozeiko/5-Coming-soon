@@ -37,7 +37,7 @@
 
             </div>
             <form class="subscribe">
-                <input type="email" placeholder="Type your email" required>
+                <input data-validation="email" type="email" placeholder="Type your email" required>
                 <button class="button" type="submit">Subscribe now</button>
             </form>
             <div class="mouse">
@@ -66,10 +66,10 @@
                 </p>
                 <form action="" class="form">
                     <div class="form-row">
-                        <input type="text" placeholder="Name" required>
-                        <input type="email" placeholder="Email" required>
+                        <input data-validation="name" type="text" placeholder="Name" required>
+                        <input data-validation="email" type="email" placeholder="Email" required>
                     </div>
-                        <textarea placeholder="Message" required></textarea>
+                        <textarea data-validation="text" placeholder="Message" required></textarea>
                     <button class="button" type="submit" >Send message</button>
                 </form>
             </div>
