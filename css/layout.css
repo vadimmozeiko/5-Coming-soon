@@ -28,7 +28,9 @@
     }
     .container {
         padding: 30px 20px;
-        
+    }
+    .back-to-top > .button {
+        display: none;
     }
 }
 
