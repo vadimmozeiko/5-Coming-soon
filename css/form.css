@@ -23,8 +23,10 @@
     outline: none;
     border-bottom: 1px solid var(--text-color);
     padding: 10px 0;
-    resize: none;
+    resize: vertical;
     margin-bottom: 40px;
+    min-height: 100px;
+    max-height: 300px;
 }
 
 

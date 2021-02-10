@@ -36,12 +36,10 @@
             <div class="clock">
 
             </div>
-            <div class="subscribe">
-                <label for="subscribe">
-                    <input type="email" name="subscribe" placeholder="Type your email" required>
-                </label>
-                <button class="button" type="submit" href="#" >Subscribe now</button>
-            </div>
+            <form class="subscribe">
+                <input data-validation="email" type="email" placeholder="Type your email" required>
+                <button class="button" type="submit">Subscribe now</button>
+            </form>
             <div class="mouse">
                 <div class="wheel"></div>
             </div>
@@ -68,10 +66,10 @@
                 </p>
                 <form action="" class="form">
                     <div class="form-row">
-                        <input type="text" name="name" placeholder="Name">
-                        <input type="text" name="email" placeholder="Email">
+                        <input data-validation="name" type="text" placeholder="Name" required>
+                        <input data-validation="email" type="email" placeholder="Email" required>
                     </div>
-                        <textarea rows="4" placeholder="Message"></textarea>
+                        <textarea data-validation="text" placeholder="Message" required></textarea>
                     <button class="button" type="submit" >Send message</button>
                 </form>
             </div>
