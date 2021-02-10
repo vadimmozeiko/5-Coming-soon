@@ -1,6 +1,6 @@
 /* Basic styles */ 
-.bg-blue {
-    background-color: #03a9f4;;
+.default-bgcolor {
+    background-color: var(--main-color);;
 }
 
 /* Hero section */
@@ -27,7 +27,7 @@
 
 .hero-text {
     line-height: 1.5;
-    color: #999;
+    color: var(--text-color);
     margin-bottom: 40px;
     font-size: 20px;
     font-weight: 300;
@@ -64,7 +64,7 @@
     
     .hero-text {
         line-height: 1.5;
-        color: #999;
+        color: var(--text-color);
         margin-bottom: 20x;
         font-size: 15px;
         font-weight: 300;
@@ -104,18 +104,18 @@
 .main-text {
     font-size: 15px;
     line-height: 1.8;
-    color: #999;
+    color: var(--text-color);
     margin-bottom: 20px;
 }
 
 .main-link {
     text-decoration: none;
-    color: #e91e63;
+    color: var(--secondary-color);
     transition: all .3s;
 }
 
 .main-link:hover {
-    color:#8a0430;
+    color: var(--secoundary-hover);
 }
 
 @media (max-width: 900px) {
@@ -164,7 +164,7 @@
 
 .footer .fa:hover {
     background-color: #fff;
-    color: #03a9f4;
+    color: var(--main-color);
 }
 
 .footer-logo {
