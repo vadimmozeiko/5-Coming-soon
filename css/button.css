@@ -21,3 +21,22 @@
     padding: 12px 20px;
     float: right;
 }
+
+.back-to-top {
+    position: relative;
+}
+
+.back-to-top > .button {
+    position: absolute;
+    top: -60px;;
+    right: -30px;
+    font-size: 27px;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}

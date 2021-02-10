@@ -117,7 +117,7 @@
 
     .left-column {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .right-column {
         width: 100%;
@@ -147,7 +147,7 @@
     text-decoration: underline;
 }
 
-.footer .fa {
+.footer > .row > .socials > .fa {
     font-size: 22px;
     color: #fff;
     cursor: pointer;
@@ -159,7 +159,7 @@
     text-decoration: none;
 }
 
-.footer .fa:hover {
+.footer > .row > .socials > .fa:hover {
     background-color: #fff;
     color: var(--main-color);
 }
@@ -202,7 +202,7 @@
     width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 680px) {
     .buttom-text {
          flex-direction: column;
 
