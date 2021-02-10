@@ -39,7 +39,7 @@ function rSocial(selector, data) {
            continue;                                // jeigu nors viena is salygu tenkinama, neuzbaigia ciklo ir tesia toliau (nevykdo ciklo HTML +=....)
     }
 
-        HTML += `<a href="${item.link}" target="_black" class="fa fa-${item.icon}"></a>`;  // i HTML konstanta irasome visas nuorodas su kintamaisiais
+        HTML += `<a href="${item.link}" target="_black" class="fa fa-${item.icon}" rel="noreferrer"></a>`;  // i HTML konstanta irasome visas nuorodas su kintamaisiais
     }
 
     //post logic validation

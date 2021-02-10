@@ -41,3 +41,8 @@
         margin-top:0;
     }
 }
+
+label {
+    font-size: 0;
+    position: absolute;
+}

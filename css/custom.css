@@ -9,8 +9,9 @@
     background-image: url(../img/banner.jpg);
     background-position: center top;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .hero .logo {
@@ -68,12 +69,6 @@
         margin-bottom: 20x;
         font-size: 15px;
         font-weight: 300;
-    }
-}
-
-@media (max-width: 361px) {
-    .hero {
-        height: auto;
     }
 }
 
@@ -144,22 +139,24 @@
 .footer-text {
     font-size: 15px;
     line-height: 1.8;
-    color: #fff8;
+    color: #fff;
 }
 
 .footer a {
-    color:#fff;
-    text-decoration: none;
+    color: var(--secoundary-hover);
+    text-decoration: underline;
 }
 
 .footer .fa {
     font-size: 22px;
+    color: #fff;
     cursor: pointer;
     margin-bottom: 20px;
     width: 40px;
     line-height: 40px;
     border-radius: 50%;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .footer .fa:hover {

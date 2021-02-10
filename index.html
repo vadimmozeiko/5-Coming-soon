@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="Design for practice only">
         <title>Coming soon</title>
         <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
         <!-- init -->
@@ -38,7 +39,8 @@
 
             </div>
             <form class="subscribe">
-                <input data-validation="email" type="email" placeholder="Type your email" required>
+                <label for="subscribe-email">Email</label>
+                <input id="subscribe-email" data-validation="email" type="email" placeholder="Type your email" required>
                 <button class="button" type="submit">Subscribe now</button>
             </form>
             <div class="mouse">
@@ -67,10 +69,13 @@
                 </p>
                 <form action="" class="form">
                     <div class="form-row">
-                        <input data-validation="name" type="text" placeholder="Name" required>
-                        <input data-validation="email" type="email" placeholder="Email" required>
+                        <label for="name">Name</label>
+                        <input id="name" data-validation="name" type="text" placeholder="Name" required>
+                        <label for="email">Email</label>
+                        <input id="email" data-validation="email" type="email" placeholder="Email" required>
                     </div>
-                        <textarea data-validation="text" placeholder="Message" required></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" data-validation="text" placeholder="Message" required></textarea>
                     <button class="button" type="submit" >Send message</button>
                 </form>
             </div>
