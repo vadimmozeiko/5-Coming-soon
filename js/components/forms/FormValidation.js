@@ -35,11 +35,11 @@ class FormValidation {
                     }
 
                     if (rule === 'email'){
-                        // use email validation
+                       console.log(Validation.isValidEmail(text))
                     }
 
                     if (rule === 'text'){
-                        // use text validation
+                       console.log(Validation.isValidText(text))
                     }
                 }
             })
