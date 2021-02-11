@@ -3,65 +3,64 @@ class Validation {
     static isValidName(name) {
         // ne tuscias tekstas
         if (!Validation.isNonEmptyText(name)) {
-            return 'Vardas turi buti ne tuscias.';
+            return 'Name field must not be empty';
         }
 
         // nei priekyje, nei gale nera tarpu
         if (!Validation.noSpacesAround(name)) {
-            return 'Vardo priekyje ir gale negali buti tarpu.';
+            return 'Should be no spaces in front of the name';
         }
 
         // negali buti daugiau nei vienas zodis (nera tarpu)
         if (!Validation.isSingleWord(name)) {
-            return 'Vardas turi buti vienas zodis.';
+            return 'Name should be one word';
         }
 
         // pirma raide didzioji
         if (!Validation.isFirstLetterUppercase(name)) {
-            return 'Vardo pirmoji raide turi buti didzioji.';
+            return 'Name first letter must be uppercase';
         }
 
         // visos likusios - tik mazosios
         if (!Validation.isLowercaseButFirst(name)) {
-            return 'Vardo visos raides, isskyrus pirma, turi buti mazosios.';
+            return 'All remaining letters after first must be lowercase';
         }
 
         // sudarytas tik is raidziu (nekreipiant demesio i tikslias abeceles)
         if (!Validation.onlyAlphabetLetters(name)) {
-            return 'Varde gali buti tik abeceles raides.';
+            return 'Name field must contain only letters';
         }
 
-        // tik abeceles raides (galimybe nurodyti kokios abeceles yra priimtinos)
         return true;
     }
 
     static isValidEmail(email) {
         // ne tuscias tekstas
         if (!Validation.isNonEmptyText(email)) {
-            return 'El. pastas turi buti ne tuscias.';
+            return 'Email field must not be empty';
         }
 
         // nei priekyje, nei gale nera tarpu
         if (!Validation.noSpacesAround(email)) {
-            return 'El. paste priekyje ir gale negali buti tarpu.';
+            return 'Should be no spaces in front of the email';
         }
 
         // butinas ir tik vienas @ 
         if (!Validation.textContainsLetter(email, '@')) {
-            return 'El. pastas turi tureti viena @ simboli.';
+            return 'Email field must contain one @ symbol.';
         }
 
         const emailParts = email.split('@');
         // pries @ (lokali dalis) turi buti - ne tuscias tekstas
         // uztenka patikrinti, jog pirmas simbolis nera @
         if (!Validation.isNonEmptyText(emailParts[0])) {
-            return 'El. pasto lokali dali turi buti ne tuscia.';
+            return 'Local part of email must not be empty';
         }
 
         // uz @ (domeno dalis) turi buti - ne tuscias tekstas
         // uztenka patikrinti, jog paskutinis simbolis nera @
         if (!Validation.isNonEmptyText(emailParts[1])) {
-            return 'El. pasto domeno dali turi buti ne tuscia.';
+            return 'Domain part of email must not be empty';
         }
         return true;
     }
@@ -69,10 +68,9 @@ class Validation {
     static isValidText(text) {
         // ne tuscias tekstas
         if (!Validation.isNonEmptyText(text)) {
-            return 'Tekstas turi buti ne tuscias.';
+            return 'Message text should not be empty.';
         }
 
-        // nei priekyje, nei gale nera tarpu
         return true;
     }
 
