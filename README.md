@@ -3,8 +3,6 @@
 ![JS](https://img.shields.io/badge/code-JS-orange)
 
 
-![Lighthouse](https://imgur.com/a/78Wt5dy)
-
 # Coming soon
 _My #5 website project_
 
