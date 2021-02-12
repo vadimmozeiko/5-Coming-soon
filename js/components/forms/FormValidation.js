@@ -3,7 +3,6 @@ import {Validation} from './Validation.js'
 class FormValidation {
     constructor() {
         this.forms = []
-        this.snackbar = ''
         
         this.findSelectors()
         this.events()

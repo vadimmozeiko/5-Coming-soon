@@ -139,12 +139,12 @@
 .footer-text {
     font-size: 15px;
     line-height: 1.8;
-    color: #fff;
+    color: #fff8;
 }
 
 .footer a {
-    color: var(--secoundary-hover);
-    text-decoration: underline;
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer > .row > .socials > .fa {
